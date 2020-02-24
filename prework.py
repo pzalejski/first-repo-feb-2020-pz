@@ -49,6 +49,9 @@ is_consecutive([1,2,3,4,5,7,6])
 
 def isconsec(a_list):
     for i in range(1, len(a_list)):
-        if a_list[i] - 1 != a_list[i:-1]
+        if a_list[i] - 1 != a_list[i:-1]:
             return False
     return True
+
+def githubtest(statement):
+    print(f"Hello, {statement}")
